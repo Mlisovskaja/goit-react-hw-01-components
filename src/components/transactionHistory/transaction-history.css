@@ -1,0 +1,19 @@
+.transaction-history {
+        width: 600px;
+        justify-content: center;
+        margin: 30px;
+        background-color: rgb(89, 65, 142);
+}
+
+tbody td {
+    text-align: center;
+   border: 1px black;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #7f94c9;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ebbadd;
+}
